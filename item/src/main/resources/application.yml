@@ -1,0 +1,16 @@
+server:
+  port: 80
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///lcn?useSSL=true
+    username: root
+    password: 1234
+
+# mybatis配置
+
+# lcn-manager
+tx-lcn:
+  client:
+    manager-address: localhost:8181
